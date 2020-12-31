@@ -6,6 +6,8 @@
     outline: 0;
 }
 
+
+
 button {
     cursor: pointer;
 }
@@ -13,7 +15,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background: #797877;
-    min-width: 520px;
     /*overflow-x: hidden;*/
 }
 
@@ -59,8 +60,9 @@ body {
 
 
 
-@media screen and (max-width: 640px) {
- 
+@media only screen and (max-device-width: 480px)
+ {
+    
     header {
         display: flex;
         justify-content: center;
@@ -76,7 +78,6 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
         .caixa-video-form .div-video iframe {
@@ -88,12 +89,12 @@ body {
             height: 350px;
         }
 
-       .div-form {
-           width: 470px;
-           border: 1px solid #a5a0a9;
-           border-radius: 15px;
-           margin-top: 10px;
-       }
+    .div-form {
+        width: 470px;
+        border: 1px solid #a5a0a9;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
 
 
     .caixa-principal-form {
@@ -101,23 +102,22 @@ body {
         color: #fff;
         font-size: 22px;
         padding: 18px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
 
     .textos {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
 
-    .titulo-form{
+    .titulo-form {
         text-align: center;
     }
+
     .subtitulo-form {
         text-align: center;
         font-size: 16px;
@@ -130,7 +130,6 @@ body {
         border: 1px solid #f4f4f4;
         margin-top: 5px;
         font-size: 16px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -144,17 +143,17 @@ body {
             color: #232020;
         }
 
-        .caixa-principal-form button {
-            background: #d7b3b5;
-            color: #fff;
-            height: 45px;
-            width: 400px;
-            border: 0;
-            border-radius: 5px;
-            margin-top: 10px;
-            font-weight: 700;
-            font-size: 24px;
-        }
+    .caixa-principal-form button {
+        background: #d7b3b5;
+        color: #fff;
+        height: 45px;
+        width: 400px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 24px;
+    }
 
         .caixa-principal-form button:hover {
             background: #d38f93;
@@ -174,7 +173,6 @@ body {
         margin-top: 15px;
         background: #d7b3b5;
         display: flex;
-
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -188,10 +186,10 @@ body {
         margin-bottom: 30px;
     }
 
-    .vantagens-icons span {
-        width: 200px;
-        text-align: center;
-    }
+        .vantagens-icons span {
+            width: 200px;
+            text-align: center;
+        }
 
     .conteudo-curso {
         display: flex;
@@ -201,15 +199,15 @@ body {
         border-bottom: 2px solid #d7b3b5;
     }
 
-    .conteudo-curso h1 {
-        text-transform: uppercase;
-        color: #d7b3b5;
-        font-size: 35px;
-        font-weight: 600;
-        margin: 15px 0 15px 0;
-    }
+        .conteudo-curso h1 {
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 35px;
+            font-weight: 600;
+            margin: 15px 0 15px 0;
+        }
 
-        .conteudo-curso ul li{
+        .conteudo-curso ul li {
             color: #fff;
             list-style: none;
             text-align: justify;
@@ -225,32 +223,28 @@ body {
     .caixa-dra-larissa {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-
         margin-top: 10px;
         border-bottom: 2px solid #a5a0a9;
     }
 
-    .caixa-dra-larissa img {
-        border-radius: 5px;
+        .caixa-dra-larissa img {
 
-    }
+            border-radius: 5px;
+        }
 
-    .caixa-dra-larissa div h1 {
-        text-align: center;
-        text-transform: uppercase;
-        color: #d7b3b5;
-        font-size: 35px;
-        font-weight: 600;
-        margin: 10px 0 10px 0;
-    }
+        .caixa-dra-larissa div h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 35px;
+            font-weight: 600;
+            margin: 10px 0 10px 0;
+        }
 
         .caixa-dra-larissa div p {
-            width: 400px;
             color: #fff;
             text-indent: 2em;
-            text-align: justify;
             margin-bottom: 15px;
         }
 
@@ -270,18 +264,18 @@ body {
             margin: 10px 0 10px 0;
         }
 
-            .caixa-investimento .valor strong{
-                color: #fff;
-                font-size: 40px;
+        .caixa-investimento .valor strong {
+            color: #fff;
+            font-size: 40px;
+        }
+
+            .caixa-investimento .valor strong s {
+                font-size: 20px;
             }
 
-                .caixa-investimento .valor strong s {
-                    font-size: 20px;
-                }
-
-                .caixa-investimento .valor span {
-                    font-size: 20px;
-                }
+        .caixa-investimento .valor span {
+            font-size: 20px;
+        }
 
         .caixa-investimento .juros {
             font-size: 18px;
@@ -317,24 +311,27 @@ body {
                 transition: background-color 1000ms linear;
             }
 
-            .caixa-investimento .obs {
-                width: 400px;
-                font-style: italic;
-                color: #fff;
-                font-size: 12px;
-            }
+        .caixa-investimento .obs {
+            font-style: italic;
+            color: #fff;
+            font-size: 12px;
+        }
+
         .caixa-investimento .cartao {
             margin-top: 20px;
             background: #fff;
             border-top: 3px solid #d7b3b5;
         }
-        .caixa-investimento .cartao img {
-            width: 480px;
-        }
 
+            .caixa-investimento .cartao img {
+                width: 480px;
+            }
 }
+ 
 
-@media screen and (min-width: 641px) {
+
+
+@media only screen and (min-width: 500px) {
 
     header {
         display: flex;
@@ -513,10 +510,9 @@ body {
         }
 
         .caixa-dra-larissa div p {
-            width: 400px;
+            margin: 20px;
             color: #fff;
             text-indent: 2em;
-            text-align: justify;
         }
 
             .caixa-dra-larissa div p .atencao {
@@ -542,7 +538,7 @@ body {
 
         .caixa-investimento .valor strong {
             color: #fff;
-            font-size: 50px;
+            font-size: 40px;
         }
 
             .caixa-investimento .valor strong s {
@@ -589,7 +585,7 @@ body {
         .caixa-investimento .obs {
             font-style: italic;
             color: #fff;
-            font-size: 12px;
+            font-size: 8px;
         }
 
         .caixa-investimento .cartao {
