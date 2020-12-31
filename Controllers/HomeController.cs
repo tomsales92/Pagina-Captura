@@ -62,7 +62,7 @@ namespace Pagina_Captura.Controllers
             }
             else
             {
-                var sql = $"insert into precadastro (nome, celular, email) values('{preCadastro.Nome}', '{preCadastro.Celular}', '{preCadastro.Email}')";
+                var sql = $"insert into heroku_dc5e1761d601134.preinscricao (nome, celular, email) values('{preCadastro.Nome}', '{preCadastro.Celular}', '{preCadastro.Email}')";
                 using (MySqlConnection conexao = new MySqlConnection(
                  _config.GetConnectionString("myConnection")))
                 {
@@ -147,7 +147,7 @@ namespace Pagina_Captura.Controllers
         public bool FindByEmail(string email)
         {
             Aluno result;
-            var sql = $"select email from precadastro where email = '{email}'";
+            var sql = $"select email from heroku_dc5e1761d601134.preinscricao where email = '{email}'";
             using (MySqlConnection conexao = new MySqlConnection(
              _config.GetConnectionString("myConnection")))
             {
