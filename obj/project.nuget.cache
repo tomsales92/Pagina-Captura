@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X7OmKhy0VEtdry6TXcqlclt1FnGU6hh5fAO1J4SyTACxAKwjk038wPxuyB6WRmnVDH8Xda6B7UMBxAV2Xav/Sg==",
+  "dgSpecHash": "D9bJCPLOsPKLNsCfAIwEtCmrqQNmPHXBGwCn5EaSBTpVN118ytoB3HI+mEjmtlfkiV4V7Oeq4rQeYWajw3I4eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\esales\\source\\repos\\Pagina-Captura\\Pagina-Captura\\Pagina-Captura.csproj",
+  "projectFilePath": "C:\\Users\\esales\\Documents\\studio-pinxesa\\Pagina-Captura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esales\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",

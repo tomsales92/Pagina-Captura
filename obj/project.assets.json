@@ -7771,11 +7771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esales\\source\\repos\\Pagina-Captura\\Pagina-Captura\\Pagina-Captura.csproj",
+      "projectUniqueName": "C:\\Users\\esales\\Documents\\studio-pinxesa\\Pagina-Captura.csproj",
       "projectName": "Pagina-Captura",
-      "projectPath": "C:\\Users\\esales\\source\\repos\\Pagina-Captura\\Pagina-Captura\\Pagina-Captura.csproj",
+      "projectPath": "C:\\Users\\esales\\Documents\\studio-pinxesa\\Pagina-Captura.csproj",
       "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esales\\source\\repos\\Pagina-Captura\\Pagina-Captura\\obj\\",
+      "outputPath": "C:\\Users\\esales\\Documents\\studio-pinxesa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",

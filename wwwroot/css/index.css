@@ -13,7 +13,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     background: #797877;
-
+    min-width: 520px;
     /*overflow-x: hidden;*/
 }
 
@@ -56,7 +56,11 @@ body {
     }
 
 
+
+
+
 @media screen and (max-width: 640px) {
+ 
     header {
         display: flex;
         justify-content: center;
@@ -75,12 +79,13 @@ body {
 
     }
 
-        .caixa-video-form .div-video video {
+        .caixa-video-form .div-video iframe {
             border: 0;
             display: flex;
             align-items: center;
             justify-content: center;
             width: 470px;
+            height: 350px;
         }
 
        .div-form {
@@ -340,17 +345,18 @@ body {
             width: 200px;
             margin-bottom: 10px;
         }
-        .caixa-video-form {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: 0 10px 0 10px;
-        }
 
-        .caixa-video-form .div-video video {
+    .caixa-video-form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px 0 10px;
+    }
+
+        .caixa-video-form .div-video iframe {
             width: 700px;
             height: 396px;
-            border-radius: 15px;
+            border-radius: 5px;
         }
 
     .div-form {
@@ -396,7 +402,6 @@ body {
         border: 1px solid #f4f4f4;
         margin-top: 10px;
         font-size: 16px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -454,10 +459,10 @@ body {
         margin-bottom: 30px;
     }
 
-    .vantagens-icons span {
-        width: 320px;
-        text-align: center;
-    }
+        .vantagens-icons span {
+            width: 320px;
+            text-align: center;
+        }
 
     .conteudo-curso {
         display: flex;
@@ -514,10 +519,10 @@ body {
             text-align: justify;
         }
 
-        .caixa-dra-larissa div p .atencao {
-            font-size: 24px;
-            text-align: center;
-        }
+            .caixa-dra-larissa div p .atencao {
+                font-size: 24px;
+                text-align: center;
+            }
 
     .caixa-investimento {
         display: flex;
@@ -593,11 +598,11 @@ body {
             border-top: 3px solid #d7b3b5;
         }
 
-            .caixa-investimento .cartao  {
-                width: 100%;
-                    background: #fff;
-                height: 60px;
-                display: flex;
-                justify-content: center;
-            }
+        .caixa-investimento .cartao {
+            width: 100%;
+            background: #fff;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+        }
 }
