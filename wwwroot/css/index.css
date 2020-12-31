@@ -1,0 +1,603 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+button {
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #797877;
+
+    /*overflow-x: hidden;*/
+}
+
+.rosa {
+    color: #d7b3b5;
+}
+
+.peso {
+    font-weight:500;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: #d7b3b5;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.validation-summary-errors {
+    background: #d7b3b5;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+    .validation-summary-errors ul li {
+        list-style: none;
+    }
+
+    .error {
+        font-weight: 400;
+        color: #d7b3b5;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+
+@media screen and (max-width: 640px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+        header img {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+
+    .caixa-video-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+        .caixa-video-form .div-video video {
+            border: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 470px;
+        }
+
+       .div-form {
+           width: 470px;
+           border: 1px solid #a5a0a9;
+           border-radius: 15px;
+           margin-top: 10px;
+       }
+
+
+    .caixa-principal-form {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 22px;
+        padding: 18px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .textos {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .titulo-form{
+        text-align: center;
+    }
+    .subtitulo-form {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .caixa-principal-form input {
+        width: 400px;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid #f4f4f4;
+        margin-top: 5px;
+        font-size: 16px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .caixa-principal-form input:focus {
+            outline: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #232020;
+        }
+
+        .caixa-principal-form button {
+            background: #d7b3b5;
+            color: #fff;
+            height: 45px;
+            width: 400px;
+            border: 0;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .caixa-principal-form button:hover {
+            background: #d38f93;
+            -webkit-transition: background-color 1000ms linear;
+            -moz-transition: background-color 1000ms linear;
+            -o-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
+        }
+
+    .icon {
+        width: 70px;
+    }
+
+    .vantagens {
+        border-radius: 10px;
+        margin-top: 15px;
+        background: #d7b3b5;
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vantagens-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .vantagens-icons span {
+        width: 200px;
+        text-align: center;
+    }
+
+    .conteudo-curso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #d7b3b5;
+    }
+
+    .conteudo-curso h1 {
+        text-transform: uppercase;
+        color: #d7b3b5;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 15px 0 15px 0;
+    }
+
+        .conteudo-curso ul li{
+            color: #fff;
+            list-style: none;
+            text-align: justify;
+            margin-bottom: 10px;
+            padding: 0 15px 0 15px;
+        }
+
+            .conteudo-curso ul li .check {
+                color: #d7b3b5;
+                font-size: 18px;
+            }
+
+    .caixa-dra-larissa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 10px;
+        border-bottom: 2px solid #a5a0a9;
+    }
+
+    .caixa-dra-larissa img {
+        border-radius: 5px;
+
+    }
+
+    .caixa-dra-larissa div h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #d7b3b5;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 10px 0 10px 0;
+    }
+
+        .caixa-dra-larissa div p {
+            width: 400px;
+            color: #fff;
+            text-indent: 2em;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+
+    .caixa-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .caixa-investimento h1 {
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 35px;
+            font-weight: 600;
+            margin: 10px 0 10px 0;
+        }
+
+            .caixa-investimento .valor strong{
+                color: #fff;
+                font-size: 40px;
+            }
+
+                .caixa-investimento .valor strong s {
+                    font-size: 20px;
+                }
+
+                .caixa-investimento .valor span {
+                    font-size: 20px;
+                }
+
+        .caixa-investimento .juros {
+            font-size: 18px;
+            color: #443d3d;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .caixa-investimento a {
+            background: #d7b3b5;
+            border-radius: 15px;
+            width: 400px;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #797877;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+            .caixa-investimento a:hover {
+                color: #fff;
+                background: #d38f93;
+                -webkit-transition: background-color 1000ms linear;
+                -moz-transition: background-color 1000ms linear;
+                -o-transition: background-color 1000ms linear;
+                -ms-transition: background-color 1000ms linear;
+                transition: background-color 1000ms linear;
+            }
+
+            .caixa-investimento .obs {
+                width: 400px;
+                font-style: italic;
+                color: #fff;
+                font-size: 12px;
+            }
+        .caixa-investimento .cartao {
+            margin-top: 20px;
+            background: #fff;
+            border-top: 3px solid #d7b3b5;
+        }
+        .caixa-investimento .cartao img {
+            width: 480px;
+        }
+
+}
+
+@media screen and (min-width: 641px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+        header img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        .caixa-video-form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 10px 0 10px;
+        }
+
+        .caixa-video-form .div-video video {
+            width: 700px;
+            height: 396px;
+            border-radius: 15px;
+        }
+
+    .div-form {
+        width: 550px;
+        height: 386px;
+        border: 1px solid #a5a0a9;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    .caixa-principal-form {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        padding: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-form {
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    .subtitulo-form {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .caixa-principal-form input {
+        width: 500px;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid #f4f4f4;
+        margin-top: 10px;
+        font-size: 16px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .caixa-principal-form input:focus {
+            outline: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #232020;
+        }
+
+    .caixa-principal-form button {
+        background: #d7b3b5;
+        color: #fff;
+        height: 55px;
+        width: 500px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+        .caixa-principal-form button:hover {
+            background: #d38f93;
+            -webkit-transition: background-color 1000ms linear;
+            -moz-transition: background-color 1000ms linear;
+            -o-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
+        }
+
+
+    .icon {
+        width: 70px;
+    }
+
+    .vantagens {
+        border-radius: 10px;
+        padding-top: 20px;
+        margin-top: 15px;
+        background: #d7b3b5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .vantagens-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .vantagens-icons span {
+        width: 320px;
+        text-align: center;
+    }
+
+    .conteudo-curso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #d7b3b5;
+    }
+
+        .conteudo-curso h1 {
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .conteudo-curso ul li {
+            color: #fff;
+            list-style: none;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+
+            .conteudo-curso ul li .check {
+                color: #d7b3b5;
+                font-size: 18px;
+            }
+
+    .caixa-dra-larissa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        border-bottom: 2px solid #a5a0a9;
+    }
+
+        .caixa-dra-larissa img {
+            border-radius: 50%;
+            margin-right: 40px;
+        }
+
+        .caixa-dra-larissa div h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 45px;
+            font-weight: 500;
+        }
+
+        .caixa-dra-larissa div p {
+            width: 400px;
+            color: #fff;
+            text-indent: 2em;
+            text-align: justify;
+        }
+
+        .caixa-dra-larissa div p .atencao {
+            font-size: 24px;
+            text-align: center;
+        }
+
+    .caixa-investimento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+        .caixa-investimento h1 {
+            text-transform: uppercase;
+            color: #d7b3b5;
+            font-size: 35px;
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+
+        .caixa-investimento .valor strong {
+            color: #fff;
+            font-size: 50px;
+        }
+
+            .caixa-investimento .valor strong s {
+                font-size: 25px;
+            }
+
+        .caixa-investimento .valor span {
+            font-size: 25px;
+        }
+
+        .caixa-investimento .juros {
+            font-size: 18px;
+            color: #443d3d;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+
+        .caixa-investimento a {
+            background: #d7b3b5;
+            border-radius: 15px;
+            width: 550px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 600;
+            color: #797877;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+            .caixa-investimento a:hover {
+                background: #d38f93;
+                -webkit-transition: background-color 1000ms linear;
+                -moz-transition: background-color 1000ms linear;
+                -o-transition: background-color 1000ms linear;
+                -ms-transition: background-color 1000ms linear;
+                transition: background-color 1000ms linear;
+            }
+
+        .caixa-investimento .obs {
+            font-style: italic;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        .caixa-investimento .cartao {
+            margin-top: 20px;
+            background: #fff;
+            border-top: 3px solid #d7b3b5;
+        }
+
+            .caixa-investimento .cartao  {
+                width: 100%;
+                    background: #fff;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+            }
+}

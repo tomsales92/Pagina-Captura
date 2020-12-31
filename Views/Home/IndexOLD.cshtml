@@ -1,0 +1,254 @@
+﻿
+    <link href="~/css/index.css" rel="stylesheet" />
+<div>
+    <div>
+        @Html.ValidationSummary(true)
+    </div>
+    <div class="caixa-principal">
+        <div class="row">
+
+            <div class="col-md-7 col-sm-12">
+                <video class="video" controls>
+                    <source src="~/video/apresentacao.mp4" type="video/mp4">
+                    Seu Browser suporta HTML video.
+                </video>
+            </div>
+
+            <div class="col-md-5 col-sm-12">
+                <div class="caixa-principal-form">
+                    <span class="titulo-form">garanta <span class="rosa">50% de desconto</span> no lançamento do curso</span>
+                    <br />
+                    <span class="subtitulo-form">Realizando o Pré Cadastro</span>
+                    <form id="form" method="post" action="/home/cadastro">
+                        <input class="form-control" placeholder="Digite o Nome" name="nome" id="nome" style="margin-top: 15px;" />
+                        <br />
+
+                        <input class="form-control" placeholder="Digite o Celular" name="Celular" id="Celular" />
+
+                        <br />
+
+                        <input class="form-control" placeholder="Digite o E-mail" name="email" id="email" />
+
+
+                        <br />
+
+                        <button class="btn btn-block btn-form" style="background: #d7b3b5; color: #fff; font-weight: 700; font-size: 24px;">CADASTRAR</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="row beneficios">
+        <div class="col-sm-12 col-md-3">
+            <div class="card">
+                <div class="div-img">
+                    <img src="~/img/apoio.png" class="icon" />
+                </div>
+                <strong>Mentoria com a Professora</strong>
+                <span class="descricao-beneficios">
+                    Tire as suas dúvidas com a professora Larissa Galli.
+                </span>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+            <div class="card">
+                <img src="~/img/trofeu.png" class="icon"/>
+                <strong>Curso Completo Online</strong>
+                <span class="descricao-beneficios">
+                    Domine as melhores técnicas investindo nessa especialização.
+                </span>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+            <div class="card">
+                <img src="~/img/cretificado.png" class="icon" />
+                <strong>Certificado Digital</strong>
+                <span class="descricao-beneficios">
+                    No final do Curso você receberá um certificado de conclusão Digital.
+                </span>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-3">
+            <div class="card">
+                <img src="~/img/premio.png" class="icon" />
+                <strong>Bônus</strong>
+                <span class="descricao-beneficios">
+                    Você terá acesso ao grupo de Apoio no Telegram
+                    <i class="fab fa-telegram-plane"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="conteudo">
+        <h1 class="display-6 mt-2 text-center rosa aprender">VOCÊ VAI APRENDER</h1>
+        <div class="lista">
+            <ul>
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Preparação Pré-Procedimento
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Altura da Agulha
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Velocidade do Dermógrafo
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Execução do Movimento de Varredura
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Treino em pele sintética e no tomate (Verificar peso de mão e Traumas Excessivos)
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Design feito de forma Simples
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Contorno invisível
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Acabamento aveludado
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Lábios sem manchas e Traumas
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Noções de Colorimetria - (Escolha do tom Ideal)
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Quando Neutralizar? Quando Colocar Cor Direto? Quando Fazer os Dois?
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Manobras para dimunuir Inchaço
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Cuidados Pós e Anamnese Completa
+                </li>
+
+                <li>
+                    <i class="fas fa-check check"></i>
+                    Demonstração de Técnicas de Neutralização e Revitalização em Modelos.
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="row caixaDra">
+        <div class="col-sm-12 col-md-5">
+            <img src="~/img/dra.JPG" width="250" class="foto-dra"/>
+        </div>
+        <div class="col-sm-12 col-md-7">
+            <div class="caixaDra-Texto">
+                <h1 class="display-6 rosa">Larissa Galli</h1>
+                <p>
+                    Nesse curso você vai aprender tudo aquilo
+                    que me ensinaram em cursos e tudo que aprendi com a experiência.
+                    O Princess Lips é uma junção de tudo que tem de eficaz e perfeito no mundo da
+                    micropigmentação labial. Desde o movimento, até segredos para facilitar o seu trabalho.
+                    Já adianto que <b class="rosa maiusculo">Organização e Sistema é tudo!</b>
+                    Fazer lábios perfeitos nunca foi tão fácil!
+                    <br />
+                    Confia e vem!
+                </p>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="text-center caixaValor">
+
+        <h1 class="display-6 text-center mt-2 rosa">INVESTIMENTO</h1>
+        <strong class="porApenas">de Apenas</strong>
+        <strong class="valorPara"><s style="font-size: 25px;">R$ 590,00 </s> <span>R$ 295,00<span style="font-size: 20px;">(Pré-Lançamento)</span></span></strong>
+        <strong class="pagamentoCartao">4x Sem Juros</strong>
+        <a href="/" class="btn btnQueroVaga"> Garanta 50% OFF no Pré-Lançamento</a>
+        <p class="obs">* Promoção Válida apenas para o Pré-Lançamento, após lançamento o valor voltará a ser  R$ 590,00.</p>
+        <div style="background: #fff; width: 100%; margin-top: 20px; border-top: 5px solid #d7b3b5;">
+            <img src="~/img/pagamento.png" />
+        </div>
+    </div>
+</div>
+
+
+@section scripts
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script type="text/javascript">
+
+        $("#Celular").mask("(99) 9999?9-9999");
+        $('.caixaDra').click(function () {
+            alert('Chegamos aqui')
+        });
+
+
+        $(function () {
+
+
+
+            $('#form').validate({
+                rules: {
+                    nome: {
+                        required: true,
+
+                    },
+                    Celular: {
+                        required: true,
+
+                    },
+                    email: {
+                        required: true,
+
+                    },
+
+
+                },
+                messages: {
+                    nome: 'O campo Nome é obrigatório!',
+                    Celular: 'O campo Celular é obrigatório!',
+                    email: 'O campo E-mail é obrigatório!'
+
+                }
+            });
+        });
+
+
+  
+
+    </script>
+
+}

@@ -1,0 +1,236 @@
+﻿
+body {
+    background: #797877;
+    /*overflow-x: hidden;*/
+}
+
+.titulo {
+    color: #d7b3b5;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+}
+
+
+.rosa {
+    color: #d7b3b5;
+}
+
+.beneficios {
+    background: #d7b3b5;
+    padding-left: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    background: #d7b3b5;
+    border: 0;
+    padding-top: 20px;
+}
+
+.descricao-beneficios {
+    text-align: center;
+}
+
+.caixaValor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valorDe {
+    font-size: 40px;
+    color: red;
+}
+
+.porApenas {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: #443d3d;
+}
+
+.valorPara {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pagamentoCartao {
+    font-size: 20px;
+    font-weight: 500;
+    color: #443d3d;
+}
+
+.btnQueroVaga {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80px;
+    border-radius: 10px;
+    background: #D7B3B5;
+    color: #797877;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+    .btnQueroVaga:hover {
+        color: #797877;
+        background: #ffbcc0;
+    }
+
+iframe {
+    border: 1px solid #A5A09A;
+}
+
+.check {
+    color: #d7b3b5;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+    .conteudo ul li {
+        list-style: none;
+    }
+
+.caixaDra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-top: 1px solid #d7b3b5;
+    border-bottom: 1px solid #a5a09a;
+}
+
+.caixaDra-Texto {
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+    .caixaDra-Texto h1 {
+        text-transform: uppercase;
+        margin-top: -20px;
+    }
+
+.foto-dra {
+    border-radius: 50%;
+    margin: 10px 0px 10px 40%;
+}
+
+form {
+    font-weight: 800;
+}
+
+.caixa-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.video {
+    border-radius: 5px;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.caixa-principal-form {
+    width: 500px;
+    border-radius: 15px;
+    height: 452px;
+    margin-left: 20px;
+    border: 1px solid #a5a09a;
+    padding: 55px 30px;
+}
+
+.titulo-form {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+
+.subtitulo-form {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.obs {
+    color: #fff;
+    font-style: italic;
+}
+
+
+
+.card .icon {
+    width: 70px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .video {
+        border-radius: 5px;
+        width: 100%;
+        padding: 0px 11% 0px 0%;
+    }
+
+    .caixa-principal-form {
+        width: 90%;
+        border-radius: 10px;
+        height: 452px;
+        margin: 0% 0 2% 1%;
+        margin-left: 2%;
+        border: 1px solid #a5a09a;
+        padding: 5% 5%;
+    }
+
+    .titulo-form {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .subtitulo-form {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .aprender {
+        font-size: 30px;
+    }
+
+
+
+    .lista {
+        font-size: 14px;
+    }
+
+    .icon {
+        width: 70px;
+    }
+}
