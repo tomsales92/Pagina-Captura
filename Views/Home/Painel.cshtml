@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Pagina_Captura.Models.Aluno>
+
+@{
+    Layout = null;
+}
+
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 0;
+    }
+
+    body {
+        background: #797877;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        padding-top: 20px;
+        text-transform: uppercase;
+        color: #d7b3b5;
+        font-size: 100px;
+        font-weight: 600;
+        margin: 15px 0 15px 0;
+    }
+
+    header span {
+        font-size: 60px;
+        color: #d7b3b5;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+
+        margin: 10px;
+        border: 3px solid #d7b3b5;
+        border-radius: 15px;
+        color: #fff;
+        padding: 20px;
+
+    }
+    </style>
+
+<div class="container">
+    <header>
+        <h1>Cadastros</h1>
+        <span>Total de Inscrições: @Model.Count()</span>
+
+    </header>
+
+    @foreach(var item in Model)
+    {
+
+        <div class="contato">
+            <strong>@item.Nome</strong>
+            <br />
+            <span>Celular: @item.Celular</span>
+            <br />
+            <span>@item.Email</span>
+        </div>
+    }
+
+</div>
+

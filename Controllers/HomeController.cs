@@ -88,6 +88,12 @@ namespace Pagina_Captura.Controllers
             return View();
         }
 
+
+        public IActionResult Painel()
+        {
+            var lista = _getAlunos();
+            return View(lista);
+        }
         public IActionResult Success()
         {
 
@@ -163,6 +169,20 @@ namespace Pagina_Captura.Controllers
                 return true;
             }
 
+        }
+
+        public IEnumerable<Aluno> _getAlunos()
+        {
+            IEnumerable<Aluno> result;
+
+            var sql = "SELECT * FROM heroku_dc5e1761d601134.preinscricao;";
+            using (MySqlConnection conexao = new MySqlConnection(
+             _config.GetConnectionString("myConnection")))
+            {
+                result = conexao.Query<Aluno>(sql);
+            }
+
+            return result;
         }
     }
 }

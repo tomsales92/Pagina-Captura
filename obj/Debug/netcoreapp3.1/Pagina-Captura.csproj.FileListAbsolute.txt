@@ -294,3 +294,5 @@ C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\staticwebassets
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.dll
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.pdb
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.genruntimeconfig.cache
+C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Admin.cshtml.g.cs
+C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Painel.cshtml.g.cs
