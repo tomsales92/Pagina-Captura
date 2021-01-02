@@ -68,15 +68,9 @@ namespace Pagina_Captura.Controllers
                 {
                     conexao.Execute(sql);
                 }
-                try
-                {
+                
                     EnviaEmail(preCadastro.Email);
 
-                }
-                catch
-                {
-
-                }
                 return RedirectToAction("Success");
             }
 
@@ -120,7 +114,7 @@ namespace Pagina_Captura.Controllers
             string mensagem = "<p>Olá, </p><p></p>" +
                               "<p>Sua pré-Inscrição no Curso Princess Lips foi efetuada com sucesso. </p>" +
                               "<p> Aguarde mais informações</p>" +
-                              "<br/><strong>Acesse o </strong> <a href='http://princesslips.com.br '>Site Princess Lips </a>." +
+                              "<br/><strong>Acesse o </strong> <a href='http://www.studiopinxesa.com.br '>Site Studio Pinxesa </a>." +
                               "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><small>Esta é uma mensagem automática por favor, não responda.</small></p>"
 
                 ;
