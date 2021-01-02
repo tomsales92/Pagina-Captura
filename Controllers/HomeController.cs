@@ -126,7 +126,7 @@ namespace Pagina_Captura.Controllers
                 ;
             string servidor = "smtp.gmail.com";
             int porta = 587;
-            string senha = "Studio01@1";
+            string senha = "Studio01@";
 
           
                 try
