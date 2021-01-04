@@ -68,8 +68,16 @@ namespace Pagina_Captura.Controllers
                 {
                     conexao.Execute(sql);
                 }
-                
+
+                try
+                {
                     EnviaEmail(preCadastro.Email);
+
+                }
+                catch
+                {
+
+                }
 
                 return RedirectToAction("Success");
             }
@@ -90,8 +98,8 @@ namespace Pagina_Captura.Controllers
         }
         public IActionResult Success()
         {
-
-            return View();
+           
+            return Redirect("https://mpago.la/1NKNCTH");
         }
 
         public IActionResult ErroCadastro()
