@@ -44,7 +44,32 @@
 
 
                     <button class="btn btn-block btn-form">Garanta 50% OFF no Pré-Lançamento</button>
+                    <div class="cadastro">
+                        <span>Já tenho cadastro</span>
 
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="div-form" id="form-cadastro">
+            <div class="caixa-principal-form">
+                <img src="~/img/logo100.png"/>
+                <br />
+                <div class="textos">
+                    <span class="titulo-form">Especialização</span>
+                    <span class="subtitulo-form">Princess Lips</span>
+                </div>
+
+                <form id="form-cadastrado" method="post" action="/home/cadastrado">
+
+                    <input class="form-control" placeholder="Digite o E-mail" type="text" name="email" id="email" />
+
+                    <button class="btn btn-block btn-form">Entrar</button>
+                    <div class="volta-cadastrar">
+                        <a href="/">Cadastrar</a>
+                    </div>
                 </form>
 
             </div>
@@ -215,6 +240,13 @@
 <script type="text/javascript">
 
     $("#Celular").mask("(99) 9999?9-9999");
+    $('#form-cadastro').hide();
+
+
+    $('.cadastro').click(function () {
+        $('.div-form').hide();
+        $('#form-cadastro').show();
+    });
 
 
 
@@ -242,6 +274,24 @@
             messages: {
                 nome: 'O campo Nome é obrigatório!',
                 Celular: 'O campo Celular é obrigatório!',
+                email: 'O campo E-mail é obrigatório!'
+
+            }
+        });
+
+
+        $('#form-cadastrado').validate({
+            rules: {
+             
+                
+                email: {
+                    required: true,
+
+                },
+
+
+            },
+            messages: {
                 email: 'O campo E-mail é obrigatório!'
 
             }

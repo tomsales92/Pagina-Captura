@@ -84,12 +84,33 @@ namespace Pagina_Captura.Controllers
 
 
         }
-        public IActionResult Admin()
+
+        [HttpPost]
+        public IActionResult Cadastrado(Cadastro preCadastro)
         {
 
-            return View();
-        }
+            var emailExistente = FindByEmail(preCadastro.Email);
 
+            if (!emailExistente)
+            {
+                ViewData["erro"] = "E-mail não cadastrado!";
+
+                if (ViewData["erro"] != null)
+                {
+                    ModelState.AddModelError(string.Empty, ViewData["erro"].ToString());
+                }
+                return View("index");
+            }
+            else
+            {
+
+
+                return Redirect("https://mpago.la/1NKNCTH");
+
+            }
+
+
+        }
 
         public IActionResult Painel()
         {
