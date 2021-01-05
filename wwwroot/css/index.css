@@ -18,6 +18,14 @@ body {
     /*overflow-x: hidden;*/
 }
 
+footer {
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .rosa {
     color: #d7b3b5;
 }
@@ -424,6 +432,7 @@ body {
 
         .caixa-principal-form button:hover {
             background: #d38f93;
+            color: #787977;
             -webkit-transition: background-color 1000ms linear;
             -moz-transition: background-color 1000ms linear;
             -o-transition: background-color 1000ms linear;
@@ -599,4 +608,6 @@ body {
             display: flex;
             justify-content: center;
         }
+
+        
 }

@@ -102,11 +102,7 @@ namespace Pagina_Captura.Controllers
             return Redirect("https://mpago.la/1NKNCTH");
         }
 
-        public IActionResult ErroCadastro()
-        {
-
-            return View();
-        }
+   
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

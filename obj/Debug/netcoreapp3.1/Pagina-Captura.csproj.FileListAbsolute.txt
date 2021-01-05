@@ -264,7 +264,6 @@ C:\Users\esales\Documents\studio-pinxesa\bin\Debug\netcoreapp3.1\runtimes\win\li
 C:\Users\esales\Documents\studio-pinxesa\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\esales\Documents\studio-pinxesa\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\esales\Documents\studio-pinxesa\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.csprojAssemblyReference.cache
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.AssemblyInfoInputs.cache
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.AssemblyInfo.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.csproj.CoreCompileInputs.cache
@@ -274,10 +273,12 @@ C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.TagHelpers.input.cache
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.TagHelpers.output.cache
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.RazorCoreGenerate.cache
+C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Admin.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\CadastroOld.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\ErroCadastro.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\IndexOLD.cshtml.g.cs
+C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Painel.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Success.cshtml.g.cs
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -294,5 +295,3 @@ C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\staticwebassets
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.dll
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.pdb
 C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Pagina-Captura.genruntimeconfig.cache
-C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Admin.cshtml.g.cs
-C:\Users\esales\Documents\studio-pinxesa\obj\Debug\netcoreapp3.1\Razor\Views\Home\Painel.cshtml.g.cs
