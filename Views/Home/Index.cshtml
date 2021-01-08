@@ -11,6 +11,25 @@
     <img src="~/img/logo.png" class="logo" />
 </header>
 <div class="container">
+
+    <div class="contagem">
+        <div>
+            <span><i class="far fa-clock"></i></span>
+            <span id="dia"></span>
+            <span>dias</span>
+            <span id="hora"></span>
+            <span>horas</span>
+            <span id="minuto"></span>
+            <span>minutos</span>
+            <span id="segundo" class="white"></span>
+            <span>seg</span>
+
+        </div>
+        <div>
+            <span> 50% OFF</span>
+
+        </div>
+    </div>
     <!--Video e Form-->
     <div>
         @Html.ValidationSummary(true)
@@ -27,8 +46,8 @@
         <div class="div-form">
             <div class="caixa-principal-form">
                 <div class="textos">
-                    <span class="titulo-form">garanta <span class="rosa">50% de desconto</span> no lançamento do curso</span>
-                    <span class="subtitulo-form">Realizando o Pré Cadastro</span>
+
+                    <span class="titulo-form">Dia <span class="rosa">25 de Janeiro</span> Começa o treinamento, corra e garanta <span class="rosa">50% de desconto.</span></span>
                 </div>
 
                 <form id="form" method="post" action="/home/cadastro">
@@ -43,7 +62,7 @@
 
 
 
-                    <button class="btn btn-block btn-form">Garanta 50% OFF no Pré-Lançamento</button>
+                    <button class="btn btn-block btn-form">Garanta 50% OFF</button>
                     <div class="cadastro">
                         <span>Já tenho cadastro</span>
 
@@ -55,7 +74,7 @@
 
         <div class="div-form" id="form-cadastro">
             <div class="caixa-principal-form">
-                <img src="~/img/logo100.png"/>
+                <img src="~/img/logo100.png" />
                 <br />
                 <div class="textos">
                     <span class="titulo-form">Especialização</span>
@@ -75,6 +94,8 @@
             </div>
         </div>
     </div>
+
+
     <!--Investimento-->
     <div class="caixa-investimento">
 
@@ -230,8 +251,11 @@
 
 </div>
 <footer>
-    Copyright © 2021 | Desenvolvido por  Produkt 
+    Copyright © 2021 | Desenvolvido por  Produkt
 </footer>
+
+
+
 
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -282,8 +306,8 @@
 
         $('#form-cadastrado').validate({
             rules: {
-             
-                
+
+
                 email: {
                     required: true,
 
@@ -299,7 +323,31 @@
     });
 
 
+    var target_date = new Date("january 11, 2021").getTime();
+    var dias, horas, minutos, segundos;
+    var regressiva = document.getElementById("regressiva");
 
+    setInterval(function () {
+
+        var current_date = new Date().getTime();
+        var segundos_f = (target_date - current_date) / 1000;
+
+        dias = parseInt(segundos_f / 86400);
+        segundos_f = segundos_f % 86400;
+
+        horas = parseInt(segundos_f / 3600);
+        segundos_f = segundos_f % 3600;
+
+        minutos = parseInt(segundos_f / 60);
+        segundos = parseInt(segundos_f % 60);
+
+        document.getElementById('dia').innerHTML = dias;
+        document.getElementById('hora').innerHTML = horas;
+        document.getElementById('minuto').innerHTML = minutos;
+        document.getElementById('segundo').innerHTML = segundos;
+
+
+    }, 1000);
 
 </script>
 
