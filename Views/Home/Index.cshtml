@@ -34,7 +34,7 @@
 </header>
 <div class="container">
 
-    <div class="contagem">
+    @*<div class="contagem">
         <div>
             <span><i class="far fa-clock"></i></span>
             <span id="dia"></span>
@@ -51,7 +51,7 @@
             <span> 50% OFF</span>
 
         </div>
-    </div>
+    </div>*@
     <!--Video e Form-->
     <div>
         @Html.ValidationSummary(true)
@@ -257,8 +257,8 @@
 
             <h1>LARISSA GALLI</h1>
             <p>
-                Nesse curso você vai aprender tudo aquilo que me ensinaram em cursos
-                e tudo que aprendi com a experiência. O <span class="rosa peso">Princess Lips</span>
+                Nesse curso vou revelar minhas tecnicas que  aprendi ao longo da minha carreira e
+                estrarei abrindo tudo que sei para você. O <span class="rosa peso">Princess Lips</span>
                 é uma junção de tudo que tem de eficaz e perfeito no mundo da micropigmentação labial.
                 Desde o movimento, até segredos para facilitar o seu trabalho.
                 Já adianto que <span class="rosa peso">ORGANIZAÇÃO E SISTEMA É TUDO!</span>
@@ -345,31 +345,31 @@
     });
 
 
-    var target_date = new Date("january 11, 2021").getTime();
-    var dias, horas, minutos, segundos;
-    var regressiva = document.getElementById("regressiva");
+    //var target_date = new Date("january 11, 2021").getTime();
+    //var dias, horas, minutos, segundos;
+    //var regressiva = document.getElementById("regressiva");
 
-    setInterval(function () {
+    //setInterval(function () {
 
-        var current_date = new Date().getTime();
-        var segundos_f = (target_date - current_date) / 1000;
+    //    var current_date = new Date().getTime();
+    //    var segundos_f = (target_date - current_date) / 1000;
 
-        dias = parseInt(segundos_f / 86400);
-        segundos_f = segundos_f % 86400;
+    //    dias = parseInt(segundos_f / 86400);
+    //    segundos_f = segundos_f % 86400;
 
-        horas = parseInt(segundos_f / 3600);
-        segundos_f = segundos_f % 3600;
+    //    horas = parseInt(segundos_f / 3600);
+    //    segundos_f = segundos_f % 3600;
 
-        minutos = parseInt(segundos_f / 60);
-        segundos = parseInt(segundos_f % 60);
+    //    minutos = parseInt(segundos_f / 60);
+    //    segundos = parseInt(segundos_f % 60);
 
-        document.getElementById('dia').innerHTML = dias;
-        document.getElementById('hora').innerHTML = horas;
-        document.getElementById('minuto').innerHTML = minutos;
-        document.getElementById('segundo').innerHTML = segundos;
+    //    document.getElementById('dia').innerHTML = dias;
+    //    document.getElementById('hora').innerHTML = horas;
+    //    document.getElementById('minuto').innerHTML = minutos;
+    //    document.getElementById('segundo').innerHTML = segundos;
 
 
-    }, 1000);
+    //}, 1000);
 
 </script>
 
