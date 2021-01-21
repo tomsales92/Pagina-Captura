@@ -34,7 +34,7 @@
 </header>
 <div class="container">
 
-    @*<div class="contagem">
+    <div class="contagem">
         <div>
             <span><i class="far fa-clock"></i></span>
             <span id="dia"></span>
@@ -51,7 +51,7 @@
             <span> 30% OFF</span>
 
         </div>
-    </div>*@
+    </div>
     <!--Video e Form-->
     <div>
         @Html.ValidationSummary(true)
@@ -84,7 +84,7 @@
 
 
 
-                    <button class="btn btn-block btn-form">CADASTRAR</button>
+                    <button class="btn btn-block btn-form">INSCREVA-SE</button>
                     <div class="cadastro">
                         <span>Já tenho cadastro</span>
 
@@ -123,7 +123,8 @@
 
         <h1>Investimento</h1>
         <div class="valor">
-            <strong><s></s> R$ 590,00<span></span></strong>
+            <strong><s>R$ 590,00</s> R$ 413,00 <span>(Pré-Lançamento)</span></strong>
+            <strong><s></s><span></span></strong>
         </div>
         <span class="juros">4x Sem Juros</span>
         @*<a href="/">Garanta 50% OFF no Pré-Lançamento</a>*@
@@ -345,31 +346,31 @@
     });
 
 
-    //var target_date = new Date("january 18, 2021").getTime();
-    //var dias, horas, minutos, segundos;
-    //var regressiva = document.getElementById("regressiva");
+    var target_date = new Date("january 25, 2021").getTime();
+    var dias, horas, minutos, segundos;
+    var regressiva = document.getElementById("regressiva");
 
-    //setInterval(function () {
+    setInterval(function () {
 
-    //    var current_date = new Date().getTime();
-    //    var segundos_f = (target_date - current_date) / 1000;
+        var current_date = new Date().getTime();
+        var segundos_f = (target_date - current_date) / 1000;
 
-    //    dias = parseInt(segundos_f / 86400);
-    //    segundos_f = segundos_f % 86400;
+        dias = parseInt(segundos_f / 86400);
+        segundos_f = segundos_f % 86400;
 
-    //    horas = parseInt(segundos_f / 3600);
-    //    segundos_f = segundos_f % 3600;
+        horas = parseInt(segundos_f / 3600);
+        segundos_f = segundos_f % 3600;
 
-    //    minutos = parseInt(segundos_f / 60);
-    //    segundos = parseInt(segundos_f % 60);
+        minutos = parseInt(segundos_f / 60);
+        segundos = parseInt(segundos_f % 60);
 
-    //    document.getElementById('dia').innerHTML = dias;
-    //    document.getElementById('hora').innerHTML = horas;
-    //    document.getElementById('minuto').innerHTML = minutos;
-    //    document.getElementById('segundo').innerHTML = segundos;
+        document.getElementById('dia').innerHTML = dias;
+        document.getElementById('hora').innerHTML = horas;
+        document.getElementById('minuto').innerHTML = minutos;
+        document.getElementById('segundo').innerHTML = segundos;
 
 
-    //}, 1000);
+    }, 1000);
 
 </script>
 
